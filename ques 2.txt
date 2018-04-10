@@ -19,7 +19,7 @@ values once the workers have exited.
 #include <stdlib.h>
 #include <pthread.h>
  
-int nums[5] = [1,2,3,4,5];
+int nums[5] = {1,2,3,4,5};
  
 void *avg(void *num[])
 {
